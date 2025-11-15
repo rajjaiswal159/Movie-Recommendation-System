@@ -28,8 +28,6 @@ BookBazar is a web-based **Book Recommendation System** built using **FastAPI**,
 - **Books Dataset**: `clean_books.csv` containing the following columns:  
 year, author, title, average_rating, image_url, text
 
-yaml
-Copy code
 - The `text` column is a combination of `title + author` used for content-based recommendations.
 
 ---
@@ -38,13 +36,12 @@ Copy code
 
 1. **Clone the repository**:
 
-```bash
+```
 git clone https://github.com/your-username/BookBazar.git
 cd BookBazar
 Create and activate a virtual environment:
 
-bash
-Copy code
+
 # Windows
 python -m venv venv
 venv\Scripts\activate
