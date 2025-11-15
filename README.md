@@ -92,12 +92,6 @@ Make sure the backend is running at http://127.0.0.1:8000.
 ## 📈 Future Improvements
 Integrate user ratings for collaborative filtering.
 
-Add book descriptions or genres for better content-based recommendations.
-
-Implement a hybrid model combining popularity + content similarity.
-
-Add pagination for search results.
-
 Deploy on Heroku / Vercel for live access.
 
 ## 📌 License
