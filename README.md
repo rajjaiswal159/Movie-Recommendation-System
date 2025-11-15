@@ -72,10 +72,11 @@ Open index.html in your browser.
 Make sure the backend is running at http://127.0.0.1:8000.
 
 ## 🛠️ API Endpoints
-Endpoint	Method	Description
-/api/books	GET	Returns top books for homepage (popularity-based)
-/api/books/search?query=QUERY	GET	Search books by title or author
-/api/books/recommend?title=BOOK_TITLE&n=6	GET	Return content-based recommendations (default 6 books)
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /api/books | GET | Returns top books for homepage (popularity-based) |
+| /api/books/search?query=QUERY | GET | Search books by title or author |
+| /api/books/recommend?title=BOOK_TITLE&n=6 | GET | Return content-based recommendations (default 6 books) |
 
 📸 Screenshots
 (Optional: Add screenshots of your UI here)
